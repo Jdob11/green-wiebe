@@ -11,7 +11,7 @@ const Priorities = () => {
         fill
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
-      <div className="relative text-shadow-lg z-10">
+      <div className="relative text-white text-shadow-lg z-10">
         <h2 className="text-3xl font-bold mb-6">Jeds Priorities</h2>
         <ul className="list-disc list-inside space-y-4 text-lg">
         <li>
