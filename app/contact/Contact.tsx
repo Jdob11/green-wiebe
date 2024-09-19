@@ -53,7 +53,7 @@ const Contact = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
       <div className="relative z-10 lg:w-3/4 lg:ml-80 md:mx-4 px-4">
         <h2 className="text-3xl font-bold mb-6 text-white text-shadow-lg">Contact Us</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4 text-black">
           <input
             type="text"
             name="name"
