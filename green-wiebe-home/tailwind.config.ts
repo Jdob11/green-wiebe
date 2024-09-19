@@ -30,16 +30,20 @@ const config: Config = {
   },
   plugins: [
     plugin(function({ addComponents, theme, e }) {
-      // Define text shadow utilities
       const shadows = theme('textShadow') || {};
       const textShadowComponents = Object.keys(shadows).map(key => ({
         [`.${e(`text-shadow-${key}`)}`]: {
           textShadow: shadows[key],
         },
       }));
-      addComponents(textShadowComponents, ['responsive', 'hover']);
+      addComponents(textShadowComponents);
     }),
   ],
+  variants: {
+    extend: {
+      textShadow: ['responsive', 'hover'],
+    },
+  },
 };
 
 export default config;

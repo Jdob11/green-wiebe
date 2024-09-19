@@ -6,8 +6,6 @@ interface SignRequestModalProps {
 }
 
 const SignRequestModal: React.FC<SignRequestModalProps> = ({ isOpen, onClose }) => {
-  if (!isOpen) return null;
-
   const handleOutsideClick = useCallback(
     (e: React.MouseEvent<HTMLDivElement>) => {
       if (e.target === e.currentTarget) {
@@ -16,6 +14,8 @@ const SignRequestModal: React.FC<SignRequestModalProps> = ({ isOpen, onClose }) 
     },
     [onClose]
   );
+
+  if (!isOpen) return null;
 
   return (
     <div 

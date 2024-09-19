@@ -21,7 +21,7 @@ const ProfilePage: React.FC = () => {
           <h2 className="text-xl text-white sm:text-2xl font-bold mb-4 text-shadow-lg">Champion for a Greener tomorrow</h2>
           <p className="text-lg text-white sm:text-xl mb-6 text-shadow-md">Building a sustainable future, together.</p>
           <p className="text-base text-white sm:text-lg text-shadow-md w-full sm:w-3/4 md:w-full lg:w-1/2">
-            I am excited to announce my candidacy as the BC Greens candidate for Salmon Arm-Shuswap. I'm stepping up because I believe we can create a sustainable future. Having witnessed the devastating effects of climate change, I am committed to advocating for our community's needs in the provincial legislature. By addressing interconnected issues like poverty, climate change, and the housing crisis, I aim to foster compassionate communities that protect the rights and needs of future generations. 
+            I am excited to announce my candidacy as the BC Greens candidate for Salmon Arm-Shuswap. I&apos;m stepping up because I believe we can create a sustainable future. Having witnessed the devastating effects of climate change, I am committed to advocating for our community&apos;s needs in the provincial legislature. By addressing interconnected issues like poverty, climate change, and the housing crisis, I aim to foster compassionate communities that protect the rights and needs of future generations. 
           </p>
         </div>
       </main>
