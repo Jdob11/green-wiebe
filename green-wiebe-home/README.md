@@ -8,14 +8,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Node.js (version 18.17.0 or later)
+- Node.js (version 18.17.0)
 - npm (comes with Node.js)
 
 ### Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/green-wiebe-home.git
+   git clone https://github.com/JDob11/green-wiebe-home.git
    cd green-wiebe-home
    ```
 
@@ -25,8 +25,13 @@ These instructions will get you a copy of the project up and running on your loc
    ```
 
 3. Set up environment variables:
-   - Copy the `.env.example` file to a new file named `.env`
-   - Replace the placeholder values in `.env` with your actual credentials
+   - Copy the `.env.example` file to a new file named `.env.local`
+   - Replace the placeholder values in `.env.local` with your actual credentials:
+     ```
+     EMAIL_USERNAME=your_email@example.com
+     EMAIL_PASSWORD=your_email_password
+     EMAIL_TO=recipient_email@example.com
+     ```
 
 4. Run the development server:
    ```

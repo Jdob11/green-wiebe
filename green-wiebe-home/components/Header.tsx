@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         </div>
         <nav className={`${isMenuOpen ? 'flex' : 'hidden'} md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-4 md:mt-0 w-full md:w-auto`}>
           <Link href="/" className={`text-white text-shadow-md ${pathname === '/' ? 'border-b-2' : ''}`}>Home</Link>
-          <Link href="/about" className={`text-white text-shadow-md ${pathname === '/about' ? 'border-b-2' : ''}`}>About Jedidiah</Link>
+          <Link href="/about" className={`text-white text-shadow-md ${pathname === '/about' ? 'border-b-2' : ''}`}>About Jed</Link>
           <Link href="/priorities" className={`text-white text-shadow-md ${pathname === '/priorities' ? 'border-b-2' : ''}`}>Priorities</Link>
           <Link href="/contact" className={`text-white text-shadow-md ${pathname === '/contact' ? 'border-b-2' : ''}`}>Contact</Link>
         </nav>

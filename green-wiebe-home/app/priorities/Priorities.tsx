@@ -23,7 +23,7 @@ const Priorities = () => {
         <li>
           <strong>Protect our forests, watersheds, and wildlife</strong> through community-led conservation efforts and by championing the proposed Biodiversity and Ecosystem Health Law.
         </li>
-        <li>
+        <li className="lg:w-5/6">
           <strong>Strengthen our democracy</strong> by implementing proportional representation, ending strategic voting, and ensuring people can vote for the candidates and ideas they truly believe in.
         </li>
         <li className="lg:w-4/5">
