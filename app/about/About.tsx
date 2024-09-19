@@ -11,7 +11,7 @@ const About = () => {
         fill
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
-      <div className="relative z-10 mx-4 sm:mx-8 md:mx-10 pt-36 pb-80 lg:pt-32 lg:pb-0">
+      <div className="relative z-10 mx-4 sm:mx-8 md:mx-10 pt-32 pb-44 md:pb-96 lg:pt-32 lg:pb-0">
         <h2 className="text-2xl font-bold mb-4 text-shadow-lg text-center lg:text-right text-white">About Jed</h2>
         <div className="space-y-4 lg:space-y-6">
           <p className="text-base text-white sm:text-lg text-shadow-md text-left lg:text-right">

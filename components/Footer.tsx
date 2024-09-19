@@ -30,19 +30,21 @@ const Footer: React.FC = () => {
     <footer className='fixed bottom-0 w-full z-50'>
       <div className="relative w-full">
         {pathname !== '/' && (
-          <div className={`absolute bottom-0 ${isReversed ? 'left-0' : 'right-0'} z-10 lg:z-50 w-[410px] h-[384px]`}>
+          <div className={`absolute bottom-0 ${isReversed ? 'left-0' : 'right-0'} z-10 w-[205px] h-[192px] md:w-[410px] md:h-[384px]`}>
             <Image
               src={getFooterImage()}
               alt="Jedidiah Wiebe banner"
               fill
-              sizes="(max-width: 768px) 100vw, 410px"
+              sizes="(max-width: 768px) 205px, 410px"
               style={{ objectFit: 'contain' }}
               priority={true}
             />
           </div>
         )}
-        <div className='footer-banner fixed bottom-0 w-full h-12 bg-footer z-20 flex items-center'>
-          <h3 className={`m-5 text-white ${isReversed ? 'ml-auto' : ''}`}>Jed Wiebe, Green Party Candidate | Salmon Arm - Shuswap</h3>
+        <div className='footer-banner fixed bottom-0 w-full h-8 md:h-12 bg-footer z-20 flex items-center'>
+          <h3 className={`m-2 md:m-5 text-xs md:text-base text-white ${isReversed ? 'ml-auto' : ''}`}>
+            Jed Wiebe, Green Party Candidate | Salmon Arm - Shuswap
+          </h3>
         </div>
       </div>
     </footer>

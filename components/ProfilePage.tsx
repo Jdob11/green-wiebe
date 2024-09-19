@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import jedMainBg from '@/public/jed-main-bg.jpg';
+import jedMainBgMobile from '@/public/jed-mobile-bg.png';
 
 const ProfilePage: React.FC = () => {
   return (
@@ -10,13 +11,24 @@ const ProfilePage: React.FC = () => {
         <Image
           src={jedMainBg}
           alt="Jed holding elderberries at Elderberry Grove"
-          className="object-cover"
+          className="object-cover hidden sm:block"
           fill
           priority
-          sizes="100vw"
+          sizes="(min-width: 640px) 100vw, 0vw"
           style={{
             objectFit: 'cover',
-            objectPosition: '83% 20%', // Adjust these percentages as needed
+            objectPosition: '85% 20%',
+          }}
+        />
+        <Image
+          src={jedMainBgMobile}
+          alt="Jed holding elderberries at Elderberry Grove"
+          className="object-cover sm:hidden"
+          fill
+          priority
+          sizes="(max-width: 639px) 100vw, 0vw"
+          style={{
+            objectFit: 'cover',
           }}
         />
       </div>

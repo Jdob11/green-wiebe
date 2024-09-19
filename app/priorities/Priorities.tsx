@@ -3,7 +3,7 @@ import enderbyCliffs from '@/public/Enderby-Cliffs.jpeg';
 
 const Priorities = () => {
   return (
-    <div className="relative w-full pt-36 pb-96 lg:pb-0 px-6 md:px-12 lg:px-24 min-h-screen">
+    <div className="relative w-full pt-32 pb-44 md:pb-96 lg:pb-0 px-6 md:px-12 lg:px-24 min-h-screen">
       <Image
         src={enderbyCliffs}
         alt="View of Enderby from the cliffs"
